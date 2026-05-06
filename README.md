@@ -34,11 +34,11 @@ This project showcases a clean UI design, smooth scrolling, and mobile-friendly 
 
 ### 🖥️ Desktop View
 
-![Desktop Screenshot](image/screenshot-desktop.png)
+![Desktop Screenshot](screenshot-desktop)
 
 ### 📱 Mobile View
 
-![Mobile Screenshot](image/screenshot-mobile.png)
+![Mobile Screenshot](screenshot-mobile)
 
 ---
 
