@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- HEADER PART -->
+    <header>
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#" class="logo-txt"> Cake<span>ry.</span></a>
+            </div>
+            <ul class="navlist" id="navlist">
+                <li><a href="#home" class="navlinks active">Home</a></li>
+                <li><a href="#about" class="navlinks">About Us</a></li>
+                <li><a href="#menu" class="navlinks">Menu</a></li>
+                <li><a href="#restaurant" class="navlinks">Restaurant</a></li>
+                <li><a href="#order" class="navlinks">Order Online</a></li>
+                <li><a href="#contact" class="navlinks">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <a href="#" class="icons-link"><i class="fa-solid fa-user"></i></a>
+                <a href="#" class="icons-link"><i class="fa-solid fa-shopping-cart"></i></a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="burger"></div>
+                <div class="burger"></div>
+                <div class="burger"></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- SECTION PART -->
+    <main>
+        <!-- HERO SECTION  -->
+        <section class="hero-section container mint-glow">
+
+            <!-- LEFT CONTENT -->
+            <div class="content">
+                <div class="watch">
+                    <a href="#" class="icons-link">
+                        <i class="fa-solid fa-play"></i>
+                    </a>
+                    <h3>Watch Video</h3>
+                </div>
+
+                <h1>Delicious Cakes, Baked with Love</h1>
+
+                <p>
+                    Indulge in our delectable cakes, crafted with passion and the finest ingredients.
+                    From classic flavors to unique creations, we have a cake for every occasion.
+                </p>
+
+                <div class="btn-container">
+                    <button>Read More</button>
+                    <button data-type="bordered-btn">Order Now</button>
+                </div>
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="image-container">
+                <img src="image/cake.png" alt="Delicious Cake">
+            </div>
+
+        </section>
+
+        <!-- STORE SECTION  -->
+        <section id="restaurant" class="other-section ">
+            <div class="column-container">
+                <h2>Welcome to Our Store</h2>
+                <p data-type="centered-txt">
+                    Discover the joy of freshly baked delights delivered straight to your doorstep.
+                    From classic favorites to unique creations, our bakery offers a carefully curated range
+                    of cakes, pastries, and desserts made with premium ingredients and expert craftsmanship.
+                    Perfect for every celebration or a simple moment of indulgence, we turn everyday cravings
+                    into unforgettable experiences.
+                </p>
+                <div class="card-container">
+                    <div class="card" data-type="category">
+                        <img src="image/pastery.png" alt="Pastery">
+                        <h3>Pastery</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="image/sandwich.png" alt="Sandwich">
+                        <h3>Sandwich</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="image/cookie.png" alt="Cookie">
+                        <h3>Cookie</h3>
+                    </div>
+                    <div class="card" data-type="category">
+                        <img src="image/bread.png" alt="Bread">
+                        <h3>Bread</h3>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ABOUT SECTION  -->
+        <section id="about" class="other-section">
+            <div class="row-container">
+                <div class="image-container">
+                    <img src="image/cupcake.jpg" alt="Cupcake">
+                </div>
+
+                <div class="content">
+                    <h2>About <br>Cakery Bakery</h2>
+                    <p>
+                        At our bakery, we are passionate about creating delicious and beautifully crafted baked goods.
+                        With a commitment to quality and a love for baking, we strive to bring joy to every bite.
+                        Our team of skilled bakers uses the finest ingredients and traditional techniques to create</p>
+                    <p> a wide variety of cakes, pastries, breads, and more. Whether you're celebrating a special
+                        occasion or simply craving something sweet, we are dedicated to providing you with an
+                        unforgettable
+                        bakery experience that delights your taste buds and warms your heart.
+                    </p>
+                    <button>Read More</button>
+                </div>
+
+            </div>
+        </section>
+        <!-- FEATURED FOOD -->
+        <section id="menu" class="other-section container">
+            <div class="column-container">
+
+                <h2>Our Featured Food</h2>
+
+                <p data-type="centered-txt">
+                    Discover our selection of delicious and freshly made food items,
+                    perfect for any occasion.
+                </p>
+
+                <div class="card-container">
+
+                    <!-- CARD 1 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/birthday cake.jpg" alt="Birthday Cake">
+                            <div class="detail">
+                                <h4>$15.00</h4>
+                                <h4>Birthday Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/muffins.jpg" alt="Muffins">
+                            <div class="detail">
+                                <h4>$8.00</h4>
+                                <h4>Muffins</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/pancake.jpg" alt="Pancake">
+                            <div class="detail">
+                                <h4>$6.00</h4>
+                                <h4>Pancake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 4 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/waffles.jpg" alt="Waffles">
+                            <div class="detail">
+                                <h4>$4.00</h4>
+                                <h4>Waffles</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 5 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/blackforestcake.jpg" alt="Black Forest Cake">
+                            <div class="detail">
+                                <h4>$15.00</h4>
+                                <h4>Black Forest Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 6 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/blueberrycheesecake.jpg" alt="Blueberry Cheesecake">
+                            <div class="detail">
+                                <h4>$10.00</h4>
+                                <h4>Blueberry Cheesecake</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- CARD 7 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/piece cake.jpg" alt="Piece Cake">
+                            <div class="detail">
+                                <h4>$5.00</h4>
+                                <h4>Piece Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 8 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/cookies.jpg" alt="Cookies">
+                            <div class="detail">
+                                <h4>$4.00</h4>
+                                <h4>Cookies</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 9 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/raspberry cake.jpg" alt="Raspberry Cake">
+                            <div class="detail">
+                                <h4>$12.00</h4>
+                                <h4>Raspberry Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 10 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/donut.jpg" alt="Donut">
+                            <div class="detail">
+                                <h4>$11.00</h4>
+                                <h4>Donut</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 11 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/valentine day cake.jpg" alt="Valentine Day Cake">
+                            <div class="detail">
+                                <h4>$18.00</h4>
+                                <h4>Valentine Day Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CARD 12 -->
+                    <div class="card" data-type="item">
+                        <div class="image-part">
+                            <img src="image/The Best devil food cake .jpg" alt="Devil Food Cake">
+                            <div class="detail">
+                                <h4>$20.00</h4>
+                                <h4>Devil Food Cake</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- APP SECTION  -->
+        <section  class="other-section container">
+            <div class="row-container">
+                <div class="content">
+                    <h2>App Is Soon <br> On Store</h2>
+                    <p>Download our app and get exclusive deals and offers!</p>
+                    <div class="app-img">
+                        <img src="image/app store.png" alt="App Store">
+                        <img src="image/play store.png" alt="Play Store">
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img src="image/bakery app.png" alt="Bakery App">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- BEST FOOD SECTION  -->
+        <section id="order" class="other-section">
+            <div class="row-container">
+                <div class="image-container">
+                    <img src="image/creamy pancake.png" alt="Cupcake">
+                </div>
+
+                <div class="content">
+                    <h2>Best Sell<br>Food In This Week!</h2>
+                    <div class="rating">
+                        <h4>$15.00</h4>
+                        <img src="image/five star.png" alt="Five Star Rating">
+                    </div>
+                    <p>
+                        Check out our most popular items this week!
+                    </p>
+                    <p> From our delectable cakes to our mouthwatering pastries, these are the treats that have been
+                        flying off the shelves. Don't miss out on the chance to indulge in our best-selling delights and
+                        experience the flavors that everyone is raving about!
+                    </p>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- NEWSLATTER SECTION  -->
+        <section class="other-section">
+            <div class="column-container">
+                <div class="column-container">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p data-type="centered-txt">
+                        Be the first to discover our newest cakes, exclusive offers, and special discounts.
+                        Join our community and never miss out on delicious updates, seasonal treats, and
+                        exciting bakery surprises delivered straight to your inbox.
+                    </p>
+                    <form class="form-container">
+                        <input type="text" name="email" id="email" placeholder="Enter your email address"
+                            autocomplete="off">
+                        <button type="submit" value="Subscribe" class="form-btn">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER PART -->
+    <footer>
+        <div class="column-container container mint-glow">
+            <div class="card-container">
+
+                <!-- COLUMN 1 -->
+                <div class="column">
+                    <div class="logo">
+                        <a href="#" class="logo-txt">
+                            Cake<span>ry.</span>
+                        </a>
+                    </div>
+
+                    <p data-type="balanced-txt">
+                        At Cakery, we bring you freshly baked delights made with love and the finest ingredients.
+                        From everyday treats to special celebration cakes, our goal is to make every moment sweeter
+                        and more memorable for you.
+                    </p>
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/" target="_blank" class="icons-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="icons-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="icons-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <!-- FIXED -->
+                        <a href="https://www.linkedin.com/" target="_blank" class="icons-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="column">
+                    <h4>Resource</h4>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-links">Contact Us</a></li>
+                        <li><a href="#" class="footer-links">FAQ</a></li>
+                        <li><a href="#" class="footer-links">Email Support</a></li>
+                        <li><a href="#" class="footer-links">API Documentation</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div class="column">
+                    <h4>Menu</h4>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-links">Birthday Cakes</a></li>
+                        <li><a href="#" class="footer-links">Wedding Cakes</a></li>
+                        <li><a href="#" class="footer-links">Cupcakes</a></li>
+                        <li><a href="#" class="footer-links">Pastries</a></li>
+                        <li><a href="#" class="footer-links">Cheesecakes</a></li>
+                        <li><a href="#" class="footer-links">Donuts</a></li>
+                        <li><a href="#" class="footer-links">Cookies</a></li>
+                        <li><a href="#" class="footer-links">Brownies</a></li>
+                        <li><a href="#" class="footer-links">Waffles</a></li>
+                        <li><a href="#" class="footer-links">Pancakes</a></li>
+                        <li><a href="#" class="footer-links">Sandwiches</a></li>
+                        <li><a href="#" class="footer-links">Fresh Bread</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 4 -->
+                <div class="column">
+                    <h4>Services</h4>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-links">Online Order</a></li>
+                        <li><a href="#" class="footer-links">Home Delivery</a></li>
+                        <li><a href="#" class="footer-links">Custom Cakes</a></li>
+                        <li><a href="#" class="footer-links">Event Catering</a></li>
+                        <li><a href="#" class="footer-links">Birthday Party Orders</a></li>
+                        <li><a href="#" class="footer-links">Office Party Catering</a></li>
+                        <li><a href="#" class="footer-links">Corporate Events</a></li>
+                        <li><a href="#" class="footer-links">Anniversary Cakes</a></li>
+                    </ul>
+                </div>
+
+                <!-- COLUMN 5 -->
+                <div id="contact" class="column">
+                    <h4>Contact</h4>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="icons-link">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </a>
+                            <a href="#" class="footer-links">
+                                123 Baker Street, New York, USA
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icons-link">
+                                <i class="fa-solid fa-phone"></i>
+
+                            </a>
+                            <a href="#" class="footer-links">
+                                +1 234 567 890
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="icons-link">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="#" class="footer-links">
+                                info@cakery.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="line">
+                <h4>© 2026 Cakery. All Rights Reserved.</h4>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
